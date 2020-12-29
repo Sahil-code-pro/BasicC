@@ -52,6 +52,12 @@ android {
 dependencies {
 
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation "androidx.cardview:cardview:1.0.0"
+
+    //noinspection GradleCompatible
+   // implementation 'com.android.support:cardview-v7:21.+'
+    //noinspection GradleCompatible
+    //implementation 'com.android.support:recyclerview-v7:21.0.3'
     apply plugin : "kotlin-android"
     apply plugin : "kotlin-android-extensions"
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"

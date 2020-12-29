@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.Pratice1.secondActivity"> </activity>
+        <activity android:name="com.example.Pratice1.hobbyActivity"> </activity>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

@@ -34,6 +34,13 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        btnRecylerV.setOnClickListener {
+
+            var intent = Intent(this, hobbyActivity::class.java)
+            startActivity(intent)
+
+        }
+
     }
 
 }
