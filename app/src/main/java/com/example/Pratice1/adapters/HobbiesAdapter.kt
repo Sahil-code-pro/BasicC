@@ -49,7 +49,7 @@ class HobbiesAdapter(val context : Context, private val hobbies : List<Hobby>) :
                     this.currentPosition = pos
                 }
     }
-
+//checking
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
         val view = LayoutInflater.from(context).inflate(R.layout.list_item, parent, false)
         return MyViewHolder(view)
